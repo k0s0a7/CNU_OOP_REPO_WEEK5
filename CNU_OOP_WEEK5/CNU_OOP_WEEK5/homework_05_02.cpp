@@ -11,7 +11,7 @@ public:
 };
 int foo() {
 	i = 3;
-	{A ob; }
+	{A ob; } // 중첩블록 사용
 	return i;
 }
 int main() {

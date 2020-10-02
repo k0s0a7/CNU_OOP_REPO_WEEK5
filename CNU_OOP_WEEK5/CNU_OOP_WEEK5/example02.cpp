@@ -41,9 +41,7 @@ public:
 
 int main() {
 	Animal A(10, "Jenny");
-
 	A.printAnimal();
-
 	std::vector<Animal> vec; //Vector for Animal type
 
 	std::cout << "-----1st push-----\n";
